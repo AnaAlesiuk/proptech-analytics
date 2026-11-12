@@ -1,6 +1,3 @@
-# proptech-analytics
-PropTech analytics for the Swiss housing market — EDA of price drivers (location, age, house type), with groundwork for AI-based valuation.
-
 # PropTech Analytics: Swiss Housing Market
 
 Exploratory data analysis of Swiss house prices: data quality audit, postal-code-to-canton mapping
