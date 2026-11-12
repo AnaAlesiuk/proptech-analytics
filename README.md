@@ -40,7 +40,8 @@ in Switzerland, and building the groundwork for AI-based property valuation.
 
 | File | Description |
 |---|---|
-| `house_prices_switzerland_2024.csv` | Swiss house listings, 2024. **Not included in this repository** — download it from Kaggle (see below) |
+| `house_prices_switzerland_2024.csv` | Swiss house listings, 2024. **Not included in this repository** — download it from Kaggle (see below)
+https://www.kaggle.com/datasets/etiennekaiser/switzerland-house-price-prediction-data|
 | `swiss_postal_codes.csv` | Postal code → canton → region lookup (3,360 postal codes). Source: [GeoNames](https://www.geonames.org/), CC BY 4.0 |
 
 **Dataset:** [House Prices Switzerland 2024]([Kaggle URL]) by Etienne Kaiser,
