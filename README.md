@@ -70,13 +70,15 @@ Requires Python 3.11+.
 - AI-based valuation: a model or LLM agent estimating prices for listings without a price,
   validated against listings with known prices
 
-  ## Repository Structure
+## Repository Structure
 
+```text
 proptech-analytics/
 ├── PropTech.ipynb
 ├── swiss_postal_codes.csv
 ├── requirements.txt
 └── README.md
+```
 
 The raw housing dataset is not included in this repository.
 Download it from Kaggle and place it alongside PropTech.ipynb.
