@@ -40,8 +40,7 @@ in Switzerland, and building the groundwork for AI-based property valuation.
 
 | File | Description |
 |---|---|
-| `house_prices_switzerland_2024.csv` | Swiss house listings, 2024. **Not included in this repository** — download it from Kaggle (see below)
-https://www.kaggle.com/datasets/etiennekaiser/switzerland-house-price-prediction-data|
+| `house_prices_switzerland_2024.csv` | Swiss house listings, 2024. Not included in this repository — download separately from Kaggle. |
 | `swiss_postal_codes.csv` | Postal code → canton → region lookup (3,360 postal codes). Source: [GeoNames](https://www.geonames.org/), CC BY 4.0 |
 
 **Dataset:** [House Prices Switzerland 2024](https://www.kaggle.com/datasets/etiennekaiser/switzerland-house-price-prediction-data) by Etienne Kaiser,
@@ -70,6 +69,17 @@ Requires Python 3.11+.
 - Imputation of missing values in the quarantine dataset
 - AI-based valuation: a model or LLM agent estimating prices for listings without a price,
   validated against listings with known prices
+
+  ## Repository Structure
+
+proptech-analytics/
+├── PropTech.ipynb
+├── swiss_postal_codes.csv
+├── requirements.txt
+└── README.md
+
+The raw housing dataset is not included in this repository.
+Download it from Kaggle and place it alongside PropTech.ipynb.
 
 ```text
 ├── PropTech.ipynb                      # Main analysis notebook
