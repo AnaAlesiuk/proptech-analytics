@@ -80,11 +80,3 @@ proptech-analytics/
 
 The raw housing dataset is not included in this repository.
 Download it from Kaggle and place it alongside PropTech.ipynb.
-
-```text
-├── PropTech.ipynb                      # Main analysis notebook
-├── house_prices_switzerland_2024.csv   # Raw listings
-├── swiss_postal_codes.csv              # Postal code → canton reference
-├── requirements.txt                    # Dependencies
-└── README.md
-```
