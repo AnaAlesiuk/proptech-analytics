@@ -1,6 +1,10 @@
 # Raw dataset
 house_prices_switzerland_2024.csv
 
+# Data files: ignore all CSVs except the postal-code reference
+*.csv
+!swiss_postal_codes.csv
+
 # Jupyter temporary files
 .ipynb_checkpoints/
 
